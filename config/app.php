@@ -147,6 +147,10 @@ return [
 
         /* Our providers*/
         Laracasts\Flash\FlashServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
+        Jenssegers\Date\DateServiceProvider::class,
+
+
 
     ],
 
@@ -198,6 +202,9 @@ return [
 
         /* Our Aliases*/
         'Flash'     => Laracasts\Flash\Flash::class,
+        'Form'      => Collective\Html\FormFacade::class,
+        'Html'      => Collective\Html\HtmlFacade::class,
+        'Date'      => Jenssegers\Date\Date::class,
 
     ],
 
